@@ -1,0 +1,733 @@
+/* max-width: 575.98px */
+@media (min-width: 1px) and (max-width: 575.98px) { 
+    
+    #navbarSupportedContent ul li{
+        background-color: rgba(255, 90, 90, 0.5);
+        background-size: cover;
+    }
+
+    /* banner start */
+    #banner{
+        padding: 40px 0;
+    }
+    #banner_text_center{
+        padding-top: 60px;
+    }
+    .banner_top_img_left {
+        width: 250px;
+        bottom: -88px;
+        left: -25px;
+        height: 190px;
+    }
+    .banner_top_img_right{
+        width: 195px;
+        bottom: -75px;
+        right: -10px;
+    }
+    .banner_text h1 {
+        font-size: 40px;
+        padding-bottom: 12px;
+    }
+    .banner_text h2 {
+        font-size: 24px;
+    }
+    .banner_text p {
+        font-size: 14px;
+        width: 385px;
+        padding: 12px 0 30px 0;
+    }
+    .banner_text a {
+        font-size: 13px;
+        padding: 16px;
+    }
+    /* banner end */
+
+    /* santa time count start */
+    .santa_time_count_background {
+        padding: 45px 0;
+    }
+    .santa_move_1 {
+        left: -207px;
+        top: 3px;
+    }
+    #days,
+    #hours,
+    #mins,
+    #seconds{
+        font-size: 20px;
+    }
+    .santa_move_2{
+        left: -84px;
+        top: -18px;
+    }
+    .santa_move_3{
+        left: 55px;
+        top: 1px;
+    }
+    .santa_move_4{
+        left: 191px;
+        top: -15px;
+    }
+    #days{
+        font-size: 20px;
+    }
+    .santa_time_count_edit h3 {
+        font-size: 14px;
+    /* santa time count end */
+
+    /* wishes start */
+    }
+    #wishes{
+        width: 575px;
+    }
+    .wishes_img{
+        width: 50%;
+    }
+    .wishes_img img{
+        width: 100%;
+    }
+    .wishes_text{
+        width: 50%;
+        padding-top: 0px;
+    }
+    .wishes_text h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .wishes_text h4,
+    .wishes_text p{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .wishes_text a {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    /* wishes end */
+
+    /* new year start */
+    #new_year {
+        padding: 12px 0;
+    }
+    .new_year_gift {
+        width: 30%;
+        left: 0;
+    }
+    .new_year_gift img{
+        width: 100%;
+    }
+    .new_year_gift_santa{
+        width: 30%;
+        right: 0;
+    }
+    .new_year_gift_santa img{
+        width: 100%;
+    }
+    .button_join_party{
+        width: 40%;
+    }
+    .button_join_party img{
+        width: 100%;
+    }
+    .button_join_party a {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    /* new year end */
+
+    /* last year party start */
+    .last_year_party_main{
+        text-align: center;
+    }
+    .width_100{
+        padding: 5px 0;
+    }
+    .last_year_party_button{
+        text-align: center;
+    }
+    .last_year_party_button a{
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* last year party end */
+
+    /* footer start */
+    .logo_bottom {
+        display: flex;
+        justify-content: center;
+    }
+    .contact_address_icon {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+    .contact_address_icon_text {
+        padding-left: 10px;
+    }
+    .contact_address_icon_text h4,
+    p{
+        font-size: 10px;
+    }
+    /* footer end */
+
+    /* copyright start */
+    .copyright_part h6{
+        text-align: center;
+        font-size: 12px;
+    }
+    /* copyright end */
+}
+
+/* (min-width: 576px) and (max-width: 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px){
+
+
+    #navbarSupportedContent ul li{
+        background-color: rgba(255, 90, 90, 0.5);
+        background-size: cover;
+    }
+
+    /* banner part */
+    #banner{
+        padding: 40px 0;
+    }
+    #banner_text_center{
+        padding-top: 20px;
+    }
+    .banner_top_img_left{
+        width: 250px;
+        bottom: -86px;
+        left: -15px;
+        height: 190px;
+    }
+    .banner_top_img_right{
+        width: 200px;
+        bottom: -75px;
+        right: -10px;
+    }
+    .banner_text h1 {
+        font-size: 40px;
+        padding-bottom: 12px;
+    }
+    .banner_text h2 {
+        font-size: 24px;
+    }
+    .banner_text p {
+        font-size: 14px;
+        width: 385px;
+        padding: 12px 0 30px 0;
+    }
+    .banner_text a {
+        font-size: 13px;
+        padding: 16px;
+    }
+
+    /* donation part */
+    #donation {
+        padding: 100px 0 100px 0;
+    }
+    .donation_title{
+        padding-bottom: 10px;
+    }
+    .donation_text h4,
+    .donation_text p{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    /* santa time count part */
+    .santa_time_count_background {
+        padding: 45px 0;
+    }
+    .santa_move_1 {
+        left: -207px;
+        top: 3px;
+    }
+    #days,
+    #hours,
+    #mins,
+    #seconds{
+        font-size: 20px;
+    }
+    .santa_move_2{
+        left: -84px;
+        top: -18px;
+    }
+    .santa_move_3{
+        left: 55px;
+        top: 1px;
+    }
+    .santa_move_4{
+        left: 191px;
+        top: -15px;
+    }
+    #days{
+        font-size: 20px;
+    }
+    .santa_time_count_edit h3 {
+        font-size: 14px;
+    }
+
+    /* wishes part */
+    .wishes_img{
+        width: 50%;
+    }
+    .wishes_img img{
+        width: 100%;
+    }
+    .wishes_text{
+        width: 50%;
+        padding-top: 0px;
+    }
+    .wishes_text h2{
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+    .wishes_text h4,
+    .wishes_text p{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .wishes_text a {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    /* new year part */
+    #new_year {
+        padding: 12px 0;
+    }
+    .new_year_gift {
+        width: 30%;
+        left: 0;
+    }
+    .new_year_gift img{
+        width: 100%;
+    }
+    .new_year_gift_santa{
+        width: 30%;
+        right: 0;
+    }
+    .new_year_gift_santa img{
+        width: 100%;
+    }
+    .button_join_party{
+        width: 40%;
+    }
+    .button_join_party img{
+        width: 100%;
+    }
+    .button_join_party a {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    /* last year party part */
+    .last_year_party_main{
+        text-align: center;
+    }
+    .width_100{
+        padding: 5px 0;
+    }
+    .last_year_party_button{
+        text-align: center;
+    }
+    .last_year_party_button a{
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* footer part */
+    .logo_bottom {
+        display: flex;
+        justify-content: center;
+    }
+    .contact_address_icon {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+    .contact_address_icon_text{
+        padding-left: 10px;
+    }
+    .contact_address_icon_text h4,
+    p{
+        font-size: 10px;
+    }
+
+    /* copyright part */
+    .copyright_part h6{
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+
+/* (min-width: 768px) and (max-width: 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    /* banner part */
+    #banner {
+        padding: 110px 0;
+    }
+    .banner_top_img_right{
+        width: 282px;
+        right: 23px;
+        bottom: -162px;
+    }
+    .banner_top_img_left{
+        width: 349px;
+        bottom: -168px;
+        height: 262px;
+    }
+    .banner_text a{
+        font-size: 16px;
+        padding: 12px;
+    }
+    .banner_text h1{
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+    /* donation part */
+    #donation{
+        padding: 126px 0 100px 0;
+    }
+    .donation_title_text p{
+        padding-bottom: 30px;
+    }
+    .donation_button{
+        text-align: center;
+    }
+
+    /* santa is coming part */
+    .santa_time_count_background {
+        padding: 75px 0;
+    }
+    #days,
+    #hours,
+    #mins,
+    #seconds{
+        font-size: 20px;
+    }
+    .santa_move_1{
+        left: -298.5px;
+        top: 5px;
+    }
+    .santa_move_2{
+        left: -119px;
+        top: -21px;
+    }
+    .santa_move_3{
+        left: 79px;
+        top: 6px;
+    }
+    .santa_move_4{
+        left: 276px;
+        top: -18px;
+    }
+    #days{
+        font-size: 20px;
+    }
+    .santa_time_count_edit h3 {
+        font-size: 14px;
+    }
+
+    /* wishes part */
+    .wishes_img{
+        width: 50%;
+    }
+    .wishes_img img{
+        width: 100%;
+    }
+    .wishes_text{
+        width: 50%;
+        padding-top: 0px;
+    }
+    .wishes_text h2{
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+    .wishes_text h4,
+    .wishes_text p{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .wishes_text a {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    /* new year part */
+    #new_year {
+        padding: 12px 0;
+    }
+    .new_year_gift {
+        width: 32%;
+        left: 0;
+    }
+    .new_year_gift img{
+        width: 100%;
+    }
+    .new_year_gift_santa{
+        width: 28%;
+        right: 0;
+    }
+    .new_year_gift_santa img{
+        width: 100%;
+    }
+    .button_join_party{
+        width: 40%;
+    }
+    .button_join_party img{
+        width: 100%;
+    }
+    .button_join_party a {
+        font-size: 17px;
+        padding: 10px 15px;
+    }
+
+    /* last year party part */
+    .last_year_party_main{
+        text-align: center;
+    }
+    .width_100{
+        padding: 5px 0;
+    }
+    .last_year_party_button{
+        text-align: center;
+    }
+    .last_year_party_button a{
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    /* footer part */
+    .logo_bottom {
+        display: flex;
+        justify-content: center;
+    }
+    .contact_absolute{
+        top: -1px;
+    }
+    .contact_address_icon{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+    .contact_address_icon_text{
+        padding-left: 10px;
+    }
+    .contact_address_icon_text h4,
+    p{
+        font-size: 14px;
+    }
+    .copyright_part h6{
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+/* (min-width: 992px) and (max-width: 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+    /* banner part */
+    .banner_top_img_right {
+        width: 360px;
+        right: 23px;
+        bottom: -208px;
+    }
+    .banner_top_img_left {
+        width: 398px;
+        height: 488px;
+        bottom: -237px;
+    }
+    .banner_top_img_left img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* santa coming part */
+    .santa_time_count_background {
+        padding: 90px 0;
+    }
+    .santa_move_1 {
+        left: -37px;
+        top: 8px;
+    }
+    .santa_move_2{
+        left: 201px;
+        top: -33px;
+    }
+    .santa_move_3 {
+        right: 257px;
+        top: 4px;
+    }
+    .santa_move_4 {
+        right: -6px;
+        top: -26px;
+    }
+
+    /* wishes part */
+    .wishes_img{
+        width: 50%;
+    }
+    .wishes_img img{
+        width: 100%;
+    }
+    .wishes_text{
+        width: 50%;
+        padding-top: 0px;
+    }
+    .wishes_text h2{
+        font-size: 32px;
+        padding-bottom: 60px;
+    }
+    .wishes_text h4,
+    .wishes_text p{
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    /* new year part */
+    .new_year_gift {
+        width: 38%;
+        left: 0;
+    }
+    .new_year_gift img{
+        width: 100%;
+    }
+    .new_year_gift_santa{
+        width: 35%;
+        right: 0;
+    }
+    .new_year_gift_santa img{
+        width: 100%;
+    }
+    .button_join_party{
+        width: 27%;
+    }
+    .button_join_party img{
+        width: 100%;
+    }
+
+}
+
+
+/* (min-width: 1200px) and (max-width: 1399.98px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+    /* banner part */
+    .banner_top_img_left {
+        width: 532px;
+        height: 573px;
+    }
+    .banner_top_img_left img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner_top_img_right {
+        right: 83px;
+    }
+
+    /* santa coming part */
+    .santa_time_count_background{
+        padding: 116px 0;
+    }
+    .santa_move_1 {
+        left: -48px;
+    }
+    .santa_move_2{
+        left: 236px;
+    }
+    .santa_move_3 {
+        right: 304px;
+    }
+    .santa_move_4 {
+        right: -11px;
+        top: -34px;
+    }
+
+    /* wishes part */
+    .wishes_img{
+        width: 49.9%;
+    }
+    .wishes_img img{
+        width: 100%;
+    }
+    .wishes_text{
+        width: 49.9%;
+    }
+    .wishes_main{
+        justify-content: space-between;
+    }
+
+    /* new year part */
+    .new_year_gift {
+        width: 35%;
+        left: 0;
+    }
+    .new_year_gift img{
+        width: 100%;
+    }
+    .new_year_gift_santa{
+        width: 30%;
+        right: 0;
+    }
+    .new_year_gift_santa img{
+        width: 100%;
+    }
+    .button_join_party{
+        width: 35%;
+    }
+    .button_join_party img{
+        width: 100%;
+    }
+}
+
+/* @media (min-width: 1400px) { ... } */
+
+@media (min-width: 1400px) {
+
+    .icon_edit_item {
+        left: 42px;
+        top: -78px;
+    }
+
+    /* banner part */
+    .banner_top_img_left {
+	width: 671px;
+    bottom: -269px;
+    }
+    .banner_top_img_left img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner_top_img_right {
+        width: 480px;
+        right: 83px;
+    }
+
+    
+    /* new year part */
+    .new_year_gift {
+        width: 35%;
+        left: 0;
+    }
+    .new_year_gift img{
+        width: 100%;
+    }
+    .new_year_gift_santa{
+        width: 30%;
+        right: 0;
+    }
+    .new_year_gift_santa img{
+        width: 100%;
+    }
+    .button_join_party{
+        width: 35%;
+    }
+    .button_join_party img{
+        width: 100%;
+    }
+
+}

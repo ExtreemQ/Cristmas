@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+/* common css end */
+
+/* navbar start */
+.navbar_bg{
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 30px;
+}
+.navbar_bg ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white !important;
+}
+.icon_edit_item{
+    position: relative;
+}
+.icon_edit_item img{
+    position: absolute;
+    left: 42px;
+    top: -78px;
+}
+/* navbar end */
+
+
+
+/* banner start */
+#banner{
+    background: linear-gradient(#d93939,#d93939);
+    padding: 140px 0;
+    position: relative;
+}
+#banner_text_center{
+    position: relative;
+}
+.banner_text h1{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-size: 60px;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+.banner_text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffffff;
+}
+.banner_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 440px;
+    margin: 0 auto;
+    padding: 20px 0 30px 0;
+    color: #ffffff;
+    z-index: 9;
+}
+.banner_text a{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ff5a5a;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    z-index: 10;
+}
+.banner_top{
+    position: relative;
+}
+.banner_top_img_left{
+    position: absolute;
+    width: 850px;
+    height: 630px;
+    bottom: -250px;
+    left: 0;
+}
+.banner_top_img_left img{
+    width: 100%;
+    height: 100%;
+}
+.banner_top_img_right{
+    position: absolute;
+    content: '';
+    width: 450px;
+    bottom: -210px;
+    right: 190px;
+}
+.banner_top_img_right img{
+    width: 100%;
+}
+/* banner end */
+
+/* donation and gift start */
+#donation{
+    padding: 200px 0 100px 0;
+}
+.donation_title{
+    padding-bottom: 60px;
+}
+.donation_bg_img{
+    width: 50%;
+}
+.donation_bg_img img{
+    width: 100%;
+}
+.donation_title_text{
+    z-index: 9998;
+}
+.donation_title_text h2{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ff5a5a;
+    padding-bottom: 20px;
+}
+.donation_title_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+    padding-bottom: 60px;
+}
+.donation_main{
+    background: url(../images/donation.png) no-repeat left;
+}
+.donation_text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+    padding-bottom: 30px;
+}
+.donation_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+    padding-bottom: 30px;
+}
+.donation_button a:first-child{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ff5a5a;
+    padding: 10px 20px;
+    border: 1px solid #ff5a5a;
+    border-radius: 30px;
+    margin-right: 10px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.donation_button a:last-child{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ff5a5a;
+    padding: 10px 30px;
+    border: 1px solid #ff5a5a;
+    border-radius: 30px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.donation_button a:hover{
+    color: #ffffff;
+    background-color: #ff5a5a;
+    border: 1px solid transparent;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+/* donation and gift end */
+
+/* santa is comming start */
+#santa_time_count{
+    padding-bottom: 100px;
+}
+.santa_time_count_title h2{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ff5a5a;
+    padding-bottom: 20px;
+}
+.santa_time_count_title p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+    padding-bottom: 60px;
+}
+.santa_time_count_background{
+    background: url(../Images/santa\ time\ count.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 150px 0;
+}
+.santa_time_count_edit{
+    text-align: center;
+}
+.santa_time_count_edit > div{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ff5a5a;
+}
+.santa_time_count_edit h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ff5a5a;
+}
+.santa_move{
+    position: relative;
+}
+.santa_move_1{
+    position: relative;
+    left: -80px;
+    top: 12px;
+}
+.santa_move_2{
+    position: absolute;
+    left: 263px;
+    top: -39px;
+}
+.santa_move_3{
+    position: absolute;
+    right: 344px;
+    top: 13px;
+}
+.santa_move_4{
+    position: absolute;
+    right: -38px;
+    top: -43px;
+}
+/* santa is comming end */
+
+
+/* wishes part start */
+
+#wishes{
+    padding-bottom: 200px;
+}
+.wishes_text{
+    padding-top: 160px;
+}
+.wishes_text h2{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ff5a5a;
+    padding-bottom: 20px;
+}
+.wishes_text h4,
+.wishes_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+    padding-bottom: 35px;
+}
+.wishes_text a{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ff5a5a;
+    padding: 15px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+/* wishes part end */
+
+/* happy new year start */
+#new_year{
+    background: linear-gradient(to right, #c4c6c8, #f8f8f8);
+    padding: 40px 0;
+    position: relative;
+}
+.button_join_party img{
+    padding-bottom: 30px;
+}
+.button_join_party a{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ff5a5a;
+    padding: 15px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.new_year_gift{
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+}
+.new_year_gift_santa{
+    position: absolute;
+    bottom: 0;
+    right: 254px;
+}
+/* happy new year end */
+
+
+/* last year party start */
+#last_year_party{
+    padding: 100px 0;
+}
+.last_year_party_title_inner h2{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ff5a5a;
+    padding-bottom: 20px;
+}
+.last_year_party_title_inner p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+    padding-bottom: 35px;
+}
+.last_year_party_main{
+    padding-bottom: 30px;
+}
+.last_year_party_button a{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ff5a5a;
+    padding: 15px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+/* last year party end */
+
+/* footer start */
+#footer{
+    background-color: #d93939;
+    padding: 30px 0;
+}
+.logo_bottom{
+    padding-bottom: 30px;
+}
+.contact_address{
+    position: relative;
+}
+.contact_absolute{
+    position: absolute;
+    top: -6px;
+}
+.contact_address_icon{
+    position: relative;
+    background-color: #ffffff;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.contact_address_icon i{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    color: #ff5a5a;
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.contact_address_icon_text{
+    padding-left: 20px;
+}
+.contact_address_icon_text h4,p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+}
+.follow_us_text h2{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 20px 0;
+}
+.follow_us ul li{
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.follow_us ul li a{
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 50%;
+    font-size: 20px;
+    color: #ffffff;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.follow_us ul li:hover{
+    background-color: #ffffff;
+    border: 1px solid transparent;
+}
+.follow_us ul li:hover a{
+    color: #fa5556 !important;
+}
+/* footer end */
+
+/* copyright start */
+
+.copyright_part{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+    padding: 20px 0;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.copyright_part:hover{
+    color: #d93939
+}
+/* copyright end */
